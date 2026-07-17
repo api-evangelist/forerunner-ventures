@@ -1,0 +1,87 @@
+aid: forerunner-ventures
+name: Forerunner Ventures
+description: >-
+  Forerunner Ventures is an early-stage venture capital firm founded in 2012 by
+  Kirsten Green and headquartered in San Francisco, California. Forerunner backs
+  founders building category-defining companies, investing with early conviction
+  at the seed and Series A stages (with selective pre-seed), typically writing
+  initial checks in the $1M-$15M range. The firm invests across consumer,
+  commerce, health and wellness, consumer finance, marketplaces and services,
+  personal systems, and platforms and infrastructure, increasingly viewed
+  through AI lenses (AI as agent, AI as infrastructure, AI as intelligence
+  layer). Forerunner has raised nearly $3B in assets under management across
+  seven flagship funds, with its most recent Fund VII a $500M early-stage
+  vehicle. Its portfolio includes category leaders such as Chime, Warby Parker,
+  Glossier, Hims & Hers, Oura, Faire, The Farmer's Dog, Dollar Shave Club,
+  Curology, Away, Ritual, and Chime, along with a growing cohort of AI-native
+  companies including Decagon, Suno, Slingshot AI, and Monarch Money.
+x-type: venture-capital
+x-category: Venture Capital
+image: https://www.forerunnerventures.com/favicon.ico
+tags:
+  - Venture Capital
+  - Seed
+  - Series A
+  - Early Stage
+  - Consumer
+  - Commerce
+  - Fintech
+  - Health & Wellness
+  - AI
+  - San Francisco
+  - North America
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.forerunnerventures.com/
+  - type: Portfolio
+    url: https://www.forerunnerventures.com/investments/
+  - type: Portfolio
+    url: portfolio/forerunner-ventures-portfolio.yml
+  - type: Team
+    url: team/forerunner-ventures-team.yml
+  - type: InvestmentThesis
+    url: https://www.forerunnerventures.com/focus
+  - type: Blog
+    url: https://www.forerunnerventures.com/perspectives/
+  - type: Newsletter
+    url: https://forerunnerventures.substack.com
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/forerunner-ventures
+  - type: Twitter
+    url: https://x.com/ForerunnerVC
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/forerunner-ventures
+  - type: Jobs
+    url: https://jobs.forerunnerventures.com/jobs
+  - type: Pitch
+    url: mailto:investments@forerunnerventures.com
+  - type: Contact
+    url: mailto:info@forerunnerventures.com
+  - type: Features
+    data:
+      - 'Stage: Seed, Series A (selective pre-seed)'
+      - 'Typical check: $1M-$15M initial investment'
+      - 'Sectors: consumer, commerce, health & wellness, consumer finance, marketplaces & services, personal systems, platforms & infrastructure, AI'
+      - 'Geography: North America (US)'
+      - 'AUM: ~$3B across seven funds (self-reported)'
+      - 'Most recent fund: Fund VII, $500M early-stage (self-reported)'
+      - 'Founded: 2012'
+      - 'HQ: San Francisco, CA'
+    sources:
+      - https://www.forerunnerventures.com/focus
+      - https://www.forerunnerventures.com/
+      - https://en.wikipedia.org/wiki/Forerunner_Ventures
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: Forerunner Ventures
+    email: info@forerunnerventures.com
+    url: https://www.forerunnerventures.com/
