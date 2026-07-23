@@ -3,9 +3,9 @@ method: searched
 source: https://www.forerunnerventures.com/investments/
 summary:
   portfolio_total: 80
-  in_network: 12
-  api_providers: 6
-  missing: 68
+  in_network: 80
+  api_providers: 7
+  missing: 0
   stubs_created: 0
 companies:
 - name: Suno
@@ -26,9 +26,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: town
+  slug: town
+  matched_by: domain
 - name: BlueLabs
   url: https://withbluelabs.ai
   description: AI-native software company.
@@ -36,9 +37,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bluelabs
+  slug: bluelabs
+  matched_by: domain
 - name: depthfirst
   url: https://depthfirst.com
   description: AI research and product company.
@@ -46,9 +48,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: depthfirst
+  slug: depthfirst
+  matched_by: domain
 - name: Humans&
   url: https://humansand.ai
   description: AI company building human-centered tools.
@@ -56,9 +59,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: humans-and
+  slug: humansand
+  matched_by: domain
 - name: SuperMe
   url: https://superme.ai
   description: AI personal assistant / agent product.
@@ -66,9 +70,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: superme
+  slug: superme
+  matched_by: domain
 - name: Agentio
   url: https://agentio.com
   description: Ad platform for creator and video advertising.
@@ -76,9 +81,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: agentio
+  slug: agentio
+  matched_by: domain
 - name: Andromeda
   url: https://andromedarobotics.ai
   description: Robotics and automation company.
@@ -86,9 +92,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: andromeda
+  slug: andromeda
+  matched_by: domain
 - name: Arcade
   url: https://www.arcade.ai
   description: AI platform for creating custom products.
@@ -107,9 +114,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: atmeeai
+  slug: atmeeai
+  matched_by: domain
 - name: Basic Capital
   url: https://basiccapital.com
   description: Consumer investing and retirement platform.
@@ -117,9 +125,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: basic-capital
+  slug: basic-capital
+  matched_by: domain
 - name: Casa
   url: https://my.casa
   description: Consumer home and living platform.
@@ -127,9 +136,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: casa
+  slug: casa
+  matched_by: name-slug
 - name: Courtyard
   url: https://courtyard.io
   description: Platform for physical collectibles as digital assets.
@@ -137,9 +147,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: courtyard
+  slug: courtyard
+  matched_by: domain
 - name: Dazzle AI
   url: https://dazzle.ai
   description: AI-powered consumer product company.
@@ -147,9 +158,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dazzle-ai
+  slug: dazzle-ai
+  matched_by: domain
 - name: Decagon
   url: https://decagon.ai
   description: AI customer support agents for enterprises.
@@ -169,9 +181,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: known
+  slug: known
+  matched_by: name-slug
 - name: Koah Labs
   url: https://www.koahlabs.com
   description: AI infrastructure and monetization company.
@@ -179,9 +192,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: koah-labs
+  slug: koah-labs
+  matched_by: domain
 - name: MagicX
   url: https://magicx.ai
   description: AI productivity and agent platform.
@@ -189,9 +203,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: magicx
+  slug: magicx
+  matched_by: domain
 - name: Marklo AI
   url: https://marklo.ai
   description: AI marketing and content company.
@@ -199,9 +214,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: marklo-ai
+  slug: marklo-ai
+  matched_by: domain
 - name: Mecka AI
   url: https://mecka.ai
   description: AI application company.
@@ -209,9 +225,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mecka-ai
+  slug: mecka-ai
+  matched_by: domain
 - name: Monarch Money
   url: https://monarchmoney.com
   description: Personal finance management and budgeting app.
@@ -219,9 +236,10 @@ companies:
   stage: series-a
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: monarch-money
+  slug: monarch-money
+  matched_by: name-slug
 - name: Natural AI
   url: https://www.natural.co
   description: AI product and platform company.
@@ -229,9 +247,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: natural-ai
+  in_network: true
+  is_api_provider: true
+  slug: natural-ai
+  matched_by: name-slug
 - name: Novig
   url: https://novig.us
   description: Peer-to-peer sports prediction exchange.
@@ -239,9 +258,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: novig
+  slug: novig
+  matched_by: domain
 - name: Outsmart
   url: https://joinoutsmart.com
   description: Consumer AI application.
@@ -249,9 +269,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: outsmart
+  slug: outsmart-college
+  matched_by: domain
 - name: Showrunner
   url: https://showrunner.xyz
   description: AI platform for generating episodic TV and video.
@@ -259,9 +280,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: showrunner
+  slug: showrunner
+  matched_by: domain
 - name: Slingshot AI
   url: https://slingshotai.com
   description: AI foundation model company for psychology and mental health.
@@ -269,9 +291,10 @@ companies:
   stage: series-a
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: slingshot-ai
+  slug: slingshotai
+  matched_by: domain
 - name: Superpower
   url: https://superpower.com
   description: Consumer health and longevity membership platform.
@@ -281,7 +304,7 @@ companies:
   source: https://www.forerunnerventures.com/investments/
   slug: superpower-health
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Tapstitch
   url: https://tapstitch.com
@@ -290,9 +313,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tapstitch
+  slug: tapstitch
+  matched_by: domain
 - name: Viewpoints AI
   url: https://viewpoints.ai
   description: AI consumer insights and research platform.
@@ -300,9 +324,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: viewpoints-ai
+  in_network: true
+  is_api_provider: true
+  slug: viewpoints-ai
+  matched_by: domain
 - name: Wabi
   url: https://wabi.ai
   description: AI application platform for building personal apps.
@@ -310,9 +335,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wabi
+  slug: wabi
+  matched_by: domain
 - name: Zeroclick
   url: https://zeroclick.ai
   description: AI agent and automation company.
@@ -320,9 +346,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zeroclick
+  slug: zeroclick
+  matched_by: domain
 - name: Alma
   url: https://www.tryalma.com
   description: Platform helping therapists build and run their practices.
@@ -330,9 +357,10 @@ companies:
   stage: series-a
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: alma
+  slug: alma
+  matched_by: domain
 - name: Anon
   url: https://anon.com
   description: Authentication infrastructure for AI agents.
@@ -340,9 +368,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: anon
+  slug: anon
+  matched_by: domain
 - name: Granted
   url: https://grantedhealth.com
   description: Healthcare access and financial navigation platform.
@@ -350,9 +379,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: granted
+  slug: granted
+  matched_by: domain
 - name: Headway
   url: https://headway.co
   description: Marketplace connecting patients with in-network therapists.
@@ -360,7 +390,7 @@ companies:
   stage: growth
   status: active
   source: https://www.forerunnerventures.com/investments/
-  slug: headway-co
+  slug: headway
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -371,9 +401,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: leland
+  slug: leland
+  matched_by: domain
 - name: Liftoff
   url: https://www.onliftoff.com
   description: Consumer fitness and wellness product.
@@ -381,9 +412,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: liftoff
+  slug: liftoff
+  matched_by: domain
 - name: Magna
   url: https://drinkmagna.com
   description: Consumer wellness beverage brand.
@@ -391,9 +423,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: magna
+  slug: magna
+  matched_by: domain
 - name: Mindtrip
   url: https://mindtrip.ai
   description: AI-powered travel planning platform.
@@ -412,9 +445,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: onfabric
+  slug: onfabric
+  matched_by: domain
 - name: Prenuvo
   url: https://prenuvo.com
   description: Whole-body MRI preventive health screening.
@@ -422,9 +456,10 @@ companies:
   stage: growth
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: prenuvo
+  slug: prenuvo
+  matched_by: domain
 - name: Roon
   url: https://www.roon.com
   description: Platform for trusted medical health information and video.
@@ -432,9 +467,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: roon
+  slug: roon
+  matched_by: domain
 - name: Teal Health
   url: https://getteal.com
   description: At-home cervical cancer screening company.
@@ -442,9 +478,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: teal-health
+  slug: getteal
+  matched_by: domain
 - name: webAI
   url: https://webai.com
   description: Decentralized on-device AI infrastructure platform.
@@ -452,9 +489,10 @@ companies:
   stage: series-a
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: webai
+  slug: webai
+  matched_by: domain
 - name: Daydream
   url: https://daydream.ing
   description: AI-powered shopping and discovery platform.
@@ -462,9 +500,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: daydream
+  slug: daydream
+  matched_by: name-slug
 - name: Duckbill
   url: https://getduckbill.com
   description: Personal assistant and errand-running service.
@@ -472,9 +511,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: duckbill
+  slug: duckbill
+  matched_by: domain
 - name: Fay
   url: https://faynutrition.com
   description: Marketplace connecting patients with registered dietitians.
@@ -482,9 +522,10 @@ companies:
   stage: series-a
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fay
+  slug: fay
+  matched_by: domain
 - name: Joy
   url: https://joy.co
   description: Wedding planning and registry platform.
@@ -492,9 +533,10 @@ companies:
   stage: growth
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: joy
+  slug: joy
+  matched_by: name-slug
 - name: The Feed
   url: https://thefeed.com
   description: Marketplace for performance nutrition and supplements.
@@ -502,9 +544,10 @@ companies:
   stage: growth
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: the-feed
+  slug: the-feed
+  matched_by: domain
 - name: Topline Pro
   url: https://toplinepro.com
   description: AI marketing software for home service businesses.
@@ -512,9 +555,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: topline-pro
+  slug: topline-pro
+  matched_by: domain
 - name: Arrived Homes
   url: https://arrived.com
   description: Platform for fractional investing in rental real estate.
@@ -522,9 +566,10 @@ companies:
   stage: growth
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arrived-homes
+  slug: arrived
+  matched_by: domain
 - name: Balance
   url: https://getbalance.com
   description: B2B payments and checkout platform.
@@ -532,9 +577,10 @@ companies:
   stage: growth
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: balance
+  slug: getbalance
+  matched_by: domain
 - name: Jump
   url: https://jump.com
   description: Consumer platform.
@@ -542,9 +588,10 @@ companies:
   stage: growth
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jump
+  slug: jump
+  matched_by: domain
 - name: Wonder
   url: https://wonder.com
   description: Food hall and meal delivery platform.
@@ -552,9 +599,10 @@ companies:
   stage: growth
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wonder
+  slug: wonder
+  matched_by: domain
 - name: A-Frame Brands
   url: https://aframebrands.com
   description: Consumer personal care brand house.
@@ -562,9 +610,10 @@ companies:
   stage: growth
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: a-frame-brands
+  slug: a-frame-brands
+  matched_by: domain
 - name: AmplifyMD
   url: https://amplifymd.com
   description: Virtual specialty care platform for hospitals.
@@ -572,9 +621,10 @@ companies:
   stage: series-a
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: amplifymd
+  slug: amplifymd
+  matched_by: domain
 - name: Atticus
   url: https://www.atticus.com
   description: Platform helping people access disability benefits.
@@ -582,9 +632,10 @@ companies:
   stage: growth
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: atticus
+  slug: atticus
+  matched_by: domain
 - name: Dutch
   url: https://dutch.com
   description: Online veterinary telehealth platform.
@@ -592,9 +643,10 @@ companies:
   stage: growth
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dutch
+  slug: dutch
+  matched_by: domain
 - name: Fora
   url: https://foratravel.com
   description: Modern travel agency and advisor platform.
@@ -602,9 +654,10 @@ companies:
   stage: growth
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fora
+  slug: fora
+  matched_by: domain
 - name: Kale
   url: https://www.getkale.com
   description: Consumer rewards and cashback platform.
@@ -612,9 +665,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kale
+  slug: kale
+  matched_by: domain
 - name: Pavilion
   url: https://www.withpavilion.com
   description: Community and platform for go-to-market professionals.
@@ -622,9 +676,10 @@ companies:
   stage: growth
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pavilion
+  slug: pavilion
+  matched_by: domain
 - name: Speechify
   url: https://speechify.com
   description: Text-to-speech and AI voice reading platform.
@@ -643,9 +698,10 @@ companies:
   stage: series-a
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: stan
+  slug: stan
+  matched_by: domain
 - name: The Expert
   url: https://theexpert.com
   description: Marketplace for virtual design consultations.
@@ -653,9 +709,10 @@ companies:
   stage: growth
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: the-expert
+  slug: the-expert
+  matched_by: domain
 - name: Oura
   url: https://ouraring.com
   description: Smart ring for sleep, activity, and health tracking.
@@ -674,9 +731,10 @@ companies:
   stage: growth
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: homebound
+  slug: homebound
+  matched_by: domain
 - name: Faire
   url: https://www.faire.com
   description: Wholesale marketplace connecting brands and retailers.
@@ -706,9 +764,10 @@ companies:
   stage: growth
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: prose
+  slug: prose
+  matched_by: name-slug
 - name: Ritual
   url: https://www.ritual.com
   description: Direct-to-consumer vitamins and supplements brand.
@@ -716,9 +775,10 @@ companies:
   stage: growth
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ritual
+  slug: ritual
+  matched_by: domain
 - name: The Farmer's Dog
   url: https://www.thefarmersdog.com
   description: Fresh, personalized dog food subscription service.
@@ -726,9 +786,10 @@ companies:
   stage: growth
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: the-farmers-dog
+  slug: the-farmer-and-8217-s-dog
+  matched_by: domain
 - name: Away
   url: https://www.awaytravel.com
   description: Direct-to-consumer luggage and travel brand.
@@ -736,9 +797,10 @@ companies:
   stage: growth
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: away
+  slug: away
+  matched_by: domain
 - name: Curology
   url: https://www.curology.com
   description: Personalized prescription skincare telehealth brand.
@@ -746,9 +808,10 @@ companies:
   stage: growth
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: curology
+  slug: curology
+  matched_by: domain
 - name: Zola
   url: https://www.zola.com
   description: Wedding registry and planning platform.
@@ -759,7 +822,7 @@ companies:
   slug: zola
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Cotopaxi
   url: https://www.cotopaxi.com
   description: Outdoor gear and apparel brand with a social mission.
@@ -767,9 +830,10 @@ companies:
   stage: growth
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cotopaxi
+  slug: cotopaxi
+  matched_by: domain
 - name: Chime
   url: https://www.chime.com
   description: Consumer fintech and digital banking platform.
@@ -788,9 +852,10 @@ companies:
   stage: growth
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: glossier
+  slug: glossier
+  matched_by: domain
 - name: Dollar Shave Club
   url: https://www.dollarshaveclub.com
   description: Subscription razor and grooming brand.
@@ -798,9 +863,10 @@ companies:
   stage: growth
   status: acquired
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dollar-shave-club
+  slug: dollar-shave-club
+  matched_by: domain
 - name: KiwiCo
   url: https://www.kiwico.com
   description: Subscription STEM and creativity kits for kids.
@@ -808,9 +874,10 @@ companies:
   stage: growth
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kiwico
+  slug: kiwico
+  matched_by: domain
 - name: Warby Parker
   url: https://www.warbyparker.com
   description: Direct-to-consumer eyewear brand and retailer.
@@ -818,6 +885,7 @@ companies:
   stage: growth
   status: ipo
   source: https://www.forerunnerventures.com/investments/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: warby-parker
+  slug: warby-parker
+  matched_by: domain
