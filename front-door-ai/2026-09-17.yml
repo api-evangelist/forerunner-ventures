@@ -1,0 +1,31 @@
+# Front Door AI Index — forerunner-ventures — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: forerunner-ventures
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.forerunnerventures.com
+  final_host: www.forerunnerventures.com
+  ownership: own
+  owner: forerunner-ventures
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 45
+  host_score: 45
+  density: 35.41
+  words: 1271
+  tiers:
+    agentic: 5
+    core: 40
+    model: 0
+  ambiguous: 21
+  top_terms:
+    AI: 40
+    intelligence: 13
+    agent: 8
+    agentic: 2
+    AI agent: 1
+    AI assistant: 1
+    prompts: 1
