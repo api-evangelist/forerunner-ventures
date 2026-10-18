@@ -3,9 +3,9 @@ method: searched
 source: https://www.forerunnerventures.com/investments/
 summary:
   portfolio_total: 80
-  in_network: 80
+  in_network: 75
   api_providers: 7
-  missing: 0
+  missing: 5
   stubs_created: 0
 companies:
 - name: Suno
@@ -136,10 +136,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: casa
-  matched_by: name-slug
+  x-name-collision: casa
+  suggested_slug: my-casa
 - name: Courtyard
   url: https://courtyard.io
   description: Platform for physical collectibles as digital assets.
@@ -181,10 +181,10 @@ companies:
   stage: seed
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: known
-  matched_by: name-slug
+  x-name-collision: known
+  suggested_slug: knowndating-com
 - name: Koah Labs
   url: https://www.koahlabs.com
   description: AI infrastructure and monetization company.
@@ -236,10 +236,10 @@ companies:
   stage: series-a
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: monarch-money
-  matched_by: name-slug
+  x-name-collision: monarch-money
+  suggested_slug: monarchmoney-com
 - name: Natural AI
   url: https://www.natural.co
   description: AI product and platform company.
@@ -293,7 +293,7 @@ companies:
   source: https://www.forerunnerventures.com/investments/
   in_network: true
   is_api_provider: false
-  slug: slingshotai
+  slug: slingshot-ai
   matched_by: domain
 - name: Superpower
   url: https://superpower.com
@@ -533,10 +533,10 @@ companies:
   stage: growth
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: joy
-  matched_by: name-slug
+  x-name-collision: joy
+  suggested_slug: joy-co
 - name: The Feed
   url: https://thefeed.com
   description: Marketplace for performance nutrition and supplements.
@@ -568,7 +568,7 @@ companies:
   source: https://www.forerunnerventures.com/investments/
   in_network: true
   is_api_provider: false
-  slug: arrived
+  slug: arrived-homes
   matched_by: domain
 - name: Balance
   url: https://getbalance.com
@@ -612,7 +612,7 @@ companies:
   source: https://www.forerunnerventures.com/investments/
   in_network: true
   is_api_provider: false
-  slug: a-frame-brands
+  slug: a-frame
   matched_by: domain
 - name: AmplifyMD
   url: https://amplifymd.com
@@ -764,10 +764,10 @@ companies:
   stage: growth
   status: active
   source: https://www.forerunnerventures.com/investments/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: prose
-  matched_by: name-slug
+  x-name-collision: prose
+  suggested_slug: prosehair-com
 - name: Ritual
   url: https://www.ritual.com
   description: Direct-to-consumer vitamins and supplements brand.
@@ -788,7 +788,7 @@ companies:
   source: https://www.forerunnerventures.com/investments/
   in_network: true
   is_api_provider: false
-  slug: the-farmer-and-8217-s-dog
+  slug: the-farmers-dog
   matched_by: domain
 - name: Away
   url: https://www.awaytravel.com
@@ -865,7 +865,7 @@ companies:
   source: https://www.forerunnerventures.com/investments/
   in_network: true
   is_api_provider: false
-  slug: dollar-shave-club
+  slug: dollar-shave
   matched_by: domain
 - name: KiwiCo
   url: https://www.kiwico.com

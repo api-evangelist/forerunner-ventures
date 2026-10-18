@@ -1,4 +1,39 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: forerunner-ventures
-leads: []
+leads:
+- name: Casa
+  url: https://my.casa
+  suggested_slug: my-casa
+  sector: consumer
+  source_vc: forerunner-ventures
+  source: https://www.forerunnerventures.com/investments/
+  stub_created: false
+- name: Known
+  url: https://www.knowndating.com
+  suggested_slug: knowndating-com
+  sector: consumer
+  source_vc: forerunner-ventures
+  source: https://www.forerunnerventures.com/investments/
+  stub_created: false
+- name: Monarch Money
+  url: https://monarchmoney.com
+  suggested_slug: monarchmoney-com
+  sector: fintech
+  source_vc: forerunner-ventures
+  source: https://www.forerunnerventures.com/investments/
+  stub_created: false
+- name: Joy
+  url: https://joy.co
+  suggested_slug: joy-co
+  sector: consumer
+  source_vc: forerunner-ventures
+  source: https://www.forerunnerventures.com/investments/
+  stub_created: false
+- name: Prose
+  url: https://www.prosehair.com
+  suggested_slug: prosehair-com
+  sector: consumer
+  source_vc: forerunner-ventures
+  source: https://www.forerunnerventures.com/investments/
+  stub_created: false
